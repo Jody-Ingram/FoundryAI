@@ -366,7 +366,10 @@
     .landing {
       min-height: 100dvh;
       display: grid;
-      place-items: center;
+      grid-template-rows: 1fr auto;
+      align-items: center;
+      justify-items: center;
+      gap: 18px;
       padding: 24px;
       padding-top: max(24px, env(safe-area-inset-top));
       padding-bottom: max(24px, env(safe-area-inset-bottom));
@@ -457,6 +460,12 @@
 
     .landing-actions { display: flex; gap: 10px; flex-wrap: wrap; }
     .fine-print { font-size: .75rem; color: #7f8aa5; margin-top: 15px; }
+
+    .landing-footer {
+      color: #7f8aa5;
+      font-size: .75rem;
+      text-align: center;
+    }
 
     .modal-backdrop {
       position: fixed;
@@ -562,6 +571,7 @@
       </div>
       <div class="fine-print">Anyone with the invite link can enter. Do not use it for sensitive or regulated information.</div>
     </div>
+    <footer class="landing-footer">© 2026 Jody Ingram. All rights reserved.</footer>
   </section>
 
   <section id="chatApp" class="app-shell hidden" aria-label="Shared chat room">
