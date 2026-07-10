@@ -1,5 +1,6 @@
-# Foundry Shared AI Chat
+# Windows Foundry Repo for AI Projects.
 
+## AI + Human Chatroom
 A mobile-friendly, share-by-link group chat with an OpenAI chatbot. It uses a plain HTML/CSS/JavaScript front end, Vercel serverless functions, and Supabase Postgres for persistent messages.
 
 ## What it does
